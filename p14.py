@@ -221,7 +221,7 @@ sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', vmin=-1, vmax=1.0)
 plt.show()
 
 
-'''#3 EDA loading the data
+#3 EDA loading the data
 #Read in the csv file and convert to a Pandas dataframe
 
 df = pd.read_csv("https://raw.githubusercontent.com/siglimumuni/Datasets/master/customer-data.csv")
@@ -507,5 +507,5 @@ monthly_sales_trends = monthly_sales_trends[month_order]
 
 # Plot Sales Trends by Month
 monthly_sales_trends.plot(kind='line', title='Sales Trends by Month', ylabel='Sales Amount', xlabel='Month', color='green')
-plt.show()'''
+plt.show()
 
